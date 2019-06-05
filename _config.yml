@@ -1,6 +1,6 @@
-title: Belkirk College of Engineering
-short_title: Belkirk
-description: Belkirk Demo Site for Forestry.io
+title: Irv Broughton
+short_title: Irv
+description: Irv Broughton Spokane Writer
 baseurl:
 permalink: "/:path/"
 defaults:
@@ -14,14 +14,9 @@ defaults:
     values:
       layout: post
 collections:
-  people:
+  books:
     output: true
-    permalink: "/about/:path/"
-  posts:
-    output: true
-  projects:
-    output: true
-    permalink: "/projects/:path/"
+    permalink: "/books/:path/"
 # tag_page_layout: tag_page
 # tag_page_dir: tag
 jekyll-archives:
